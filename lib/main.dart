@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:learning/app_bar.dart';
+import 'package:learning/text_demo.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,6 +16,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: AppBarDemo());
+        home: TextDemo());
   }
 }
